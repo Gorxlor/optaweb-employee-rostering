@@ -4,4 +4,5 @@
     <!--<scoreDrl>org/optaweb/employeerostering/service/solver/employeeRosteringScoreRules.drl</scoreDrl>-->
     <constraintProviderClass>org.optaweb.employeerostering.service.solver.EmployeeRosteringConstraintProvider</constraintProviderClass>
   </scoreDirectorFactory>
+  <moveThreadCount>4</moveThreadCount>
 </solver>
