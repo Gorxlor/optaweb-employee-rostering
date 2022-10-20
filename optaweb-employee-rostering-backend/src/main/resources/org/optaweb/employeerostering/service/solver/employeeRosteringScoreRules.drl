@@ -77,7 +77,7 @@ rule "No more than 2 consecutive shifts"
         scoreHolder.penalize(kcontext, $s3.getLengthInMinutes());
 end
 
-rule "Break between non-consecutive shifts is at least 10 hours"
+rule "Break between non-consecutive shifts is at least 11 hours"
     when
         $s : Shift(
                 employee != null,
@@ -86,7 +86,7 @@ rule "Break between non-consecutive shifts is at least 10 hours"
         Shift(
                 employee == $e,
                 $leftEndDateTime < startDateTime,
-                $leftEndDateTime.until(startDateTime, ChronoUnit.HOURS) < 10,
+                $leftEndDateTime.until(startDateTime, ChronoUnit.HOURS) < 11,
                 this != $s,
                 $rightStartDateTime: startDateTime)
     then
