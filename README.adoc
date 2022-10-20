@@ -1,8 +1,6 @@
 :projectKey: optaweb-employee-rostering
 
-*This project is no longer maintained.*
-Visit https://github.com/kiegroup/optaplanner-quickstarts/tree/stable/use-cases/employee-scheduling[OptaPlanner Employee Rostering Quickstart] to see how to integrate https://www.optaplanner.org/[OptaPlanner] in your application.
-
+A fork of optaweb-employee-rostering ​in which I attempt to adapt it to the needs of the X-ray department at Glasgow Royal Infirmary.
 
 = Employee Rostering Optimization as a Service
 
